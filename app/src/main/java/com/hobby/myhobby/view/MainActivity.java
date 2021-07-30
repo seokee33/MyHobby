@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.hobby.myhobby.BackPressHandler;
 import com.hobby.myhobby.R;
+import com.hobby.myhobby.databinding.ActivityMainBinding;
 import com.hobby.myhobby.view.Menu_hobby;
 import com.hobby.myhobby.view.Menu_home;
 import com.hobby.myhobby.view.Menu_my;
@@ -30,11 +31,14 @@ public class MainActivity extends AppCompatActivity {
     private Menu_my my;
     private Menu_other other;
 
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
 
         bp = new BackPressHandler(this);
 
