@@ -1,0 +1,8 @@
+<resources>
+    <!-- title -->
+    <string name="app_name">즐기자 취미</string>
+    <string name="title_today_hobby">오늘의 취미</string>
+    <string name="title_hot_board">HOT</string>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="3dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="1dp"
+        android:background="@drawable/card_view_custom1"
+        app:cardCornerRadius="5dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_hot_board_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="제목"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_hot_board_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:text="내용"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
