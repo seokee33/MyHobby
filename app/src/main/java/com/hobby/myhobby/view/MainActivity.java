@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
     private Menu_my my;
     private Menu_other other;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

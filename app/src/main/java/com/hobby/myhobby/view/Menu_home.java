@@ -16,6 +16,7 @@ import com.hobby.myhobby.HotBoardItem;
 import com.hobby.myhobby.R;
 import com.hobby.myhobby.TodayHobbyAdapter;
 import com.hobby.myhobby.TodayHobbyItem;
+import com.hobby.myhobby.databinding.FragHomeBinding;
 
 import org.jetbrains.annotations.NotNull;
 
