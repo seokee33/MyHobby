@@ -58,7 +58,7 @@ public class Menu_home extends Fragment {
         todayHobbyItems = new ArrayList<>();
 
         //임시 데이터 추가
-        todayHobbyItems.add(new TodayHobbyItem("축구"));
+        todayHobbyItems.add(new TodayHobbyItem("배드민턴"));
         todayHobbyItems.add(new TodayHobbyItem("야구"));
 
         adapter_today_hobby = new TodayHobbyAdapter(todayHobbyItems,getContext());

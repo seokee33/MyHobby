@@ -37,7 +37,7 @@ public class TodayHobbyAdapter extends RecyclerView.Adapter<TodayHobbyAdapter.Cu
 
     @Override
     public void onBindViewHolder(@NonNull @NotNull TodayHobbyAdapter.CustomViewHolder holder, int position) {
-        holder.iv_today_hobby.setImageResource(R.drawable.running);
+        holder.iv_today_hobby.setImageResource(R.drawable.badminton);
         holder.tv_today_hobby_name.setText(todayHobbyItems.get(position).getTv_today_hobby());
     }
 
