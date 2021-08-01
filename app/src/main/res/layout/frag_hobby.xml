@@ -36,31 +36,33 @@
 
             <Button
                 android:id="@+id/btn_hotlist1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_weight="1"
-                android:background="#ffffff"
-                android:text="즐겨찾기1" />
+                android:background="@drawable/ic_baseline_star_24"
+                app:backgroundTint="#FFDF00" />
 
             <Button
                 android:id="@+id/btn_hotlist2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:text="즐겨찾기2" />
-
-            <Button
-                android:id="@+id/btn_hotlist3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:text="즐겨찾기3" />
+                android:background="@drawable/ic_baseline_star_24"
+                app:backgroundTint="#FFDF00" />
+
+            <Button
+                android:id="@+id/btn_hotlist3"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_star_24"
+                app:backgroundTint="#FFDF00" />
         </LinearLayout>
 
         <LinearLayout
@@ -72,31 +74,33 @@
 
             <Button
                 android:id="@+id/btn_hotlist4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
-                android:backgroundTint="@color/white"
-                android:text="즐겨찾기4" />
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_star_24"
+                app:backgroundTint="#FFDF00" />
 
             <Button
                 android:id="@+id/btn_hotlist5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:text="즐겨찾기5" />
-
-            <Button
-                android:id="@+id/btn_hotlist6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_weight="1"
-                android:backgroundTint="@color/white"
-                android:text="즐겨찾기6" />
+                android:background="@drawable/ic_baseline_star_24"
+                app:backgroundTint="#FFDF00" />
+
+            <Button
+                android:id="@+id/btn_hotlist6"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/ic_baseline_star_24"
+                app:backgroundTint="#FFDF00" />
         </LinearLayout>
     </LinearLayout>
 

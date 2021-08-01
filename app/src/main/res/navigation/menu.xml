@@ -4,6 +4,33 @@
     <item
         android:id="@+id/menu_home"
         android:enabled="true"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/menu_hobby"
+        android:enabled="true"
+        android:icon="@drawable/hobby"/>
+
+    <item
+        android:id="@+id/menu_my"
+        android:enabled="true"
+        android:icon="@drawable/my"/>
+
+    <item
+        android:id="@+id/menu_other"
+        android:enabled="true"
+        android:icon="@drawable/other" />
+
+</menu>
+
+<!--
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
         android:icon="@drawable/home"
         android:title="홈"/>
 
@@ -25,3 +52,6 @@
         android:icon="@drawable/other" />
 
 </menu>
+
+
+-->
