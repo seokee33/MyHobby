@@ -1,5 +1,6 @@
 package com.hobby.myhobby.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -66,7 +67,7 @@ public class Menu_hobby extends Fragment {
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                Toast.makeText(getContext(),adapter.getChild(groupPosition,childPosition).getTv_hobby_category_child(),Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getContext(),adapter.getChild(groupPosition,childPosition).getTv_hobby_category_child(),Toast.LENGTH_SHORT).show();
 
                 return true;
             }
@@ -99,5 +100,10 @@ public class Menu_hobby extends Fragment {
         }
         adapter.notifyDataSetChanged();
 
+    }
+
+    private void myStartActivity(Class c){
+        Intent intent = new Intent(this.getContext(),c);
+        startActivity(intent);
     }
 }
