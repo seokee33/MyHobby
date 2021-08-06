@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="10"
-    tools:context=".hobby_list_board">
+    tools:context=".Hobby_list_board">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"

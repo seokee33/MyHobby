@@ -17,6 +17,7 @@ import com.hobby.myhobby.CategoryChildItem;
 import com.hobby.myhobby.CategoryHobby;
 import com.hobby.myhobby.CategoryParentItem;
 import com.hobby.myhobby.HobbyCategoryExpandAdapter;
+import com.hobby.myhobby.Hobby_list_board;
 import com.hobby.myhobby.R;
 import com.hobby.myhobby.databinding.FragHobbyBinding;
 
@@ -67,8 +68,7 @@ public class Menu_hobby extends Fragment {
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView parent, View v, int groupPosition, int childPosition, long id) {
-                //Toast.makeText(getContext(),adapter.getChild(groupPosition,childPosition).getTv_hobby_category_child(),Toast.LENGTH_SHORT).show();
-
+                myStartActivity(Hobby_list_board.class);
                 return true;
             }
         });
